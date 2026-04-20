@@ -1,0 +1,44 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Nested venv structure (voice_assistant subfolder acts as venv root)
+voice_assistant/Lib/
+voice_assistant/Scripts/
+voice_assistant/share/
+voice_assistant/a/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs and temp files
+*.log
+*.tmp
+test_results.txt
+assistant_timers.json
+
+# Screenshots
+*.png
+*.jpg
+*.jpeg
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
